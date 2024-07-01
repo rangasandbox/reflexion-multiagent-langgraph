@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "reflextion-agent"
+version = "0.1.0"
+description = ""
+authors = ["sumitkumar9988 <sumi9998877@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.2.6"
+langgraph = "^0.1.5"
+langchain-openai = "^0.1.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
